@@ -1,0 +1,7 @@
+{
+    "kc": {
+      "aliases": ["knightriders", "kc-1", "kc-2"],
+      "elb": "s3://si-global-elb-logs/elb-waf-kc/AWSLogs/572143828798/elasticloadbalancing/us-east-1/",
+      "alb": ""
+    }
+  }

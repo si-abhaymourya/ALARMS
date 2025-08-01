@@ -1,0 +1,6 @@
+{
+    "subject": "OK: \"si-waf-kc-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-30T12:02:46.000Z",
+    "script_to_run": "4xx"
+}
