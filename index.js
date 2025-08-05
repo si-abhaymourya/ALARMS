@@ -4,8 +4,9 @@ const zlib = require('zlib');
 const rl = require('readline');
 
 function index(dir) {
-  let stats = { req: 0, errors: 0 };
-  let fname = dir;
+  return new Promise((resolve) => {
+    let stats = { req: 0, errors: 0 };
+    let fname = dir;
 
   let files = fs.readdirSync(dir);
   let count = 0;
@@ -47,8 +48,14 @@ function index(dir) {
 
     lineReader.on('close', () => {
       if (errors.length > 0) {
-        fs.appendFileSync(fname + '-rawlog.txt', '\n' + errors.join('\n'));
-        fs.appendFileSync(fname + '-urls.txt', '\n' + errorsURLs.join('\n'));
+        // Create files in the directory
+        const rawlogPath = path.join(fname, fname + '-rawlog.txt');
+        const urlsPath = path.join(fname, fname + '-urls.txt');
+        fs.writeFileSync(rawlogPath, errors.join('\n'));
+        fs.writeFileSync(urlsPath, errorsURLs.join('\n'));
+        console.log(`Created files with ${errors.length} errors in ${fname}`);
+      } else {
+        console.log(`No errors found for ${fname}`);
       }
 
       if (files[count]) {
@@ -56,11 +63,13 @@ function index(dir) {
       } else {
         console.log('Done');
         console.log(stats);
+        resolve(stats);
       }
     });
   }
 
   readFile();
+  });
 }
 
 module.exports = { index };

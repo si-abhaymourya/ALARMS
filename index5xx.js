@@ -4,8 +4,9 @@ const zlib = require('zlib');
 const rl = require('readline');
 
 function index5XX(dir) {
-  let stats = { req: 0, errors: 0, highResponseTime: 0 };
-  let fname = dir;
+  return new Promise((resolve) => {
+    let stats = { req: 0, errors: 0, highResponseTime: 0 };
+    let fname = dir;
   let files = fs.readdirSync(dir);
   let count = 0;
 
@@ -51,9 +52,18 @@ function index5XX(dir) {
     });
 
     lineReader.on('close', () => {
+      let filesCreated = false;
+      
       if (errors.length > 0) {
-        fs.appendFileSync(fname + '-5xx-rawlog.txt', '\n' + errors.join('\n'));
-        fs.appendFileSync(fname + '-5xx-urls.txt', '\n' + errorsURLs.join('\n'));
+        // Create files in the directory
+        const rawlogPath = path.join(fname, fname + '-5xx-rawlog.txt');
+        const urlsPath = path.join(fname, fname + '-5xx-urls.txt');
+        fs.writeFileSync(rawlogPath, errors.join('\n'));
+        fs.writeFileSync(urlsPath, errorsURLs.join('\n'));
+        console.log(`Created 5xx files with ${errors.length} errors in ${fname}`);
+        filesCreated = true;
+      } else {
+        console.log(`No 5xx errors found for ${fname}`);
       }
 
       if (highResponseTimeUrls.length > 0) {
@@ -63,7 +73,16 @@ function index5XX(dir) {
         });
 
         const logLines = highResponseTimeUrls.map(log => `${log.reqTime} : ${log.url} ${log.timeTaken}s ${log.statusCode}`);
-        fs.appendFileSync(fname + '-highresponse-urls.txt', '\n' + logLines.join('\n'));
+        const highResponsePath = path.join(fname, fname + '-highresponse-urls.txt');
+        fs.writeFileSync(highResponsePath, logLines.join('\n'));
+        console.log(`Created high response time file with ${highResponseTimeUrls.length} entries in ${fname}`);
+        filesCreated = true;
+      } else {
+        console.log(`No high response time entries found for ${fname}`);
+      }
+
+      if (!filesCreated) {
+        console.log(`No issues found for ${fname}, no files created`);
       }
 
       if (files[count]) {
@@ -71,11 +90,13 @@ function index5XX(dir) {
       } else {
         console.log('Done');
         console.log(stats);
+        resolve(stats);
       }
     });
   }
 
   readFile();
+  });
 }
 
 module.exports = { index5XX };

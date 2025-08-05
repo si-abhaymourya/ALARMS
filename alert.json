@@ -1,6 +1,983 @@
-{
-    "subject": "OK: \"si-waf-kc-ELB-4XX-TG\" in US East (N. Virginia)",
+[
+  {
+    "alarm_type": "5xx",
+    "scripts_to_run": "5xx",
+    "subject": "OK: \"5xx -KXIP-ELB\" in US East (N. Virginia)",
     "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
-    "date": "2025-07-30T12:02:46.000Z",
-    "script_to_run": "4xx"
-}
+    "date": "2025-08-05",
+    "utc_time": "09:41:13",
+    "ignore": false
+  },
+  {
+    "alarm_type": "5xx",
+    "scripts_to_run": "5xx",
+    "subject": "ALARM: \"5xx -KXIP-ELB\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "09:40:12",
+    "ignore": false
+  },
+  {
+    "alarm_type": "5xx",
+    "scripts_to_run": "5xx",
+    "subject": "Re: ALARM: \"5xx -KXIP-ELB\" in US East (N. Virginia)",
+    "from": "Dhruv Solanki <dhruv.solanki@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "09:40:12",
+    "ignore": true
+  },
+  {
+    "alarm_type": "5xx",
+    "scripts_to_run": "5xx",
+    "subject": "Re: ALARM: \"5xx -KXIP-ELB\" in US East (N. Virginia)",
+    "from": "Dhruv Solanki <dhruv.solanki@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "",
+    "ignore": true
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-WAF-tier3-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "09:09:16",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-WAF-tier3-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "09:52:16",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-WAF-tier3-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "09:07:16",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-WAF-tier3-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "09:15:16",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "07:43:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "07:45:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "07:50:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "07:57:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "07:41:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "07:44:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "07:46:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "07:55:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Re: ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "Amey Surve <amey.surve@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "07:55:31",
+    "ignore": true
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Re: ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "Amey Surve <amey.surve@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "07:55:31",
+    "ignore": true
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "20:48:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "21:01:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "21:31:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "22:06:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "22:50:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "22:56:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "23:10:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "23:17:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "23:30:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "23:40:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "00:02:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "20:47:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "21:00:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "21:30:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "22:05:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "22:49:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "22:55:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "23:09:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "23:16:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "23:29:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "23:39:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-05",
+    "utc_time": "00:01:44",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "Re: ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Akshay Hadawale <akshay.hadawale@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "",
+    "ignore": true
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-seattle-orcas-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "SeattleOrcas-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "19:50:37",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-seattle-orcas-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "SeattleOrcas-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "20:15:37",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-seattle-orcas-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "SeattleOrcas-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "20:27:37",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-seattle-orcas-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "SeattleOrcas-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "19:49:37",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-seattle-orcas-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "SeattleOrcas-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "20:13:37",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-seattle-orcas-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "SeattleOrcas-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "20:20:37",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Re: ALARM: \"si-seattle-orcas-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "Shruti Chaube <shruti.chaube@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "20:20:37",
+    "ignore": true
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Re: ALARM: \"si-seattle-orcas-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "Shruti Chaube <shruti.chaube@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "",
+    "ignore": true
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Re: ALARM: \"si-seattle-orcas-ELB-4XX-TG\" in US East (N. Virginia)",
+    "from": "Sushma Santra <sushma.santra@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "20:20:37",
+    "ignore": true
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-WAF-tier3-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "15:42:38",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-WAF-tier3-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "15:41:38",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "Re: ALARM: \"si-WAF-tier3-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Ajay Bendre <ajay.bendre@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "",
+    "ignore": true
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "Re: ALARM: \"si-WAF-tier3-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Amey Surve <amey.surve@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "",
+    "ignore": true
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-isl-cms-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Waf-Ops-ISL-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "10:37:27",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-isl-cms-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Waf-Ops-ISL-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "10:25:27",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Akamai 4XX alerts || Website",
+    "from": "Sanjit Kori <sanjit@sportzinteractive.net>",
+    "date": "2025-08-04",
+    "utc_time": "",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "22:11:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "22:58:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "03:08:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "22:10:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "22:57:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-04",
+    "utc_time": "03:07:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "Re: ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Ajay Bendre <ajay.bendre@sportzinteractive.net>",
+    "date": "2025-08-04",
+    "utc_time": "03:07:05",
+    "ignore": true
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "Re: ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Dhruv Solanki <dhruv.solanki@sportzinteractive.net>",
+    "date": "2025-08-04",
+    "utc_time": "",
+    "ignore": true
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "01:27:25",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "04:03:25",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "01:22:25",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "04:02:25",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "23:46:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "00:40:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "23:45:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-03",
+    "utc_time": "00:39:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "5xx",
+    "scripts_to_run": "5xx",
+    "subject": "OK: \"si-Bcci-Wplt20-cms-ELB-5XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "16:03:42",
+    "ignore": false
+  },
+  {
+    "alarm_type": "5xx",
+    "scripts_to_run": "5xx",
+    "subject": "ALARM: \"si-Bcci-Wplt20-cms-ELB-5XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "15:37:42",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-isl-cms-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Waf-Ops-ISL-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "08:51:57",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-isl-cms-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Waf-Ops-ISL-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "08:44:57",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "02:21:25",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "02:20:25",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "21:10:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "22:47:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "00:32:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "02:03:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "21:09:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "22:46:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "00:31:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-02",
+    "utc_time": "02:02:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-isl-cms-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Waf-Ops-ISL-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "15:01:57",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-isl-cms-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "Waf-Ops-ISL-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "14:48:57",
+    "ignore": false
+  },
+  {
+    "alarm_type": "5xx",
+    "scripts_to_run": "5xx",
+    "subject": "OK: \"5xx -KXIP-ELB\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "14:23:12",
+    "ignore": false
+  },
+  {
+    "alarm_type": "5xx",
+    "scripts_to_run": "5xx",
+    "subject": "ALARM: \"5xx -KXIP-ELB\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "14:16:12",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "08:41:25",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-08-01",
+    "utc_time": "08:39:25",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Re: ALARM: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "Ajay Bendre <ajay.bendre@sportzinteractive.net>",
+    "date": "2025-08-01",
+    "utc_time": "08:39:25",
+    "ignore": true
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "21:22:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "OK: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "23:27:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "21:21:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "TargetResponseTime",
+    "scripts_to_run": "targetresponsetime",
+    "subject": "ALARM: \"si-waf-kc-ELB-TargetResponseTime\" in US East (N. Virginia)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "23:26:05",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "12:22:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "12:35:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "12:45:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Re: OK: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "Amey Surve <amey.surve@sportzinteractive.net>",
+    "date": "2025-08-05",
+    "utc_time": "",
+    "ignore": true
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "12:21:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "12:26:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "WPLT20 Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "12:39:31",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Re: ALARM: \"si-Bcci-Wplt20-ELB-4XX\" in US East (N. Virginia)",
+    "from": "Ajay Bendre <ajay.bendre@sportzinteractive.net>",
+    "date": "2025-07-31",
+    "utc_time": "12:39:31",
+    "ignore": true
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "OK: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "09:33:43",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "ALARM: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "WAF-Ops-Alerts <no-reply@sns.amazonaws.com>",
+    "date": "2025-07-31",
+    "utc_time": "09:31:43",
+    "ignore": false
+  },
+  {
+    "alarm_type": "4xx",
+    "scripts_to_run": "4xx",
+    "subject": "Re: ALARM: \"si-data-ecn-ELB-4XX-TG\" in Asia Pacific (Mumbai)",
+    "from": "Shruti Chaube <shruti.chaube@sportzinteractive.net>",
+    "date": "2025-07-31",
+    "utc_time": "",
+    "ignore": true
+  }
+]

@@ -1,0 +1,6 @@
+node_modules/
+*.zip
+credentials.json
+token.json
+Gmail_Alarm/
+processed_alerts.json
